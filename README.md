@@ -1,12 +1,16 @@
 # Postgres
-user: postgres
-pwd:  example
-hostname: db
-port: 5432
+| property | value    |
+|----------|----------|
+| user     | postgres |
+| pwd      | example  |
+| hostname | db       |
+| port     | 5432     |
 
-access to linux instance: `docker-compose exec db bash`
+Access to linux instance: `./attach.sh`
 
 # pgAdmin
-user: admin@admin.com
-pwd:  admin
-port: 5050
+| property | value           |
+|----------|-----------------|
+| user     | admin@admin.com |
+| pwd      | example         |
+| port     | 5050            |

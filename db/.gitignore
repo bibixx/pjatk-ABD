@@ -1,4 +1,6 @@
-data
+data/*
+!data/postgresql.conf
+!data/postgresql.conf.bak
 root/.bash_history
 root/.psql_history
 pgadmin
